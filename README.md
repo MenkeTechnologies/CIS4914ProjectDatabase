@@ -1,9 +1,19 @@
 # CIS4914ProjectDatabase
 
-## Clone
+## Clone all
 
 ```bash
 git clone --recursive https://github.com/MenkeTechnologies/CIS4914ProjectDatabase.git
+```
+
+## Clone frontend
+```bash
+git clone https://github.com/MenkeTechnologies/CIS4914ProjectDatabaseUI.git
+```
+
+## Clone backend
+```bash
+git clone https://github.com/MenkeTechnologies/CIS4914ProjectDatabaseAPI.git
 ```
 
 ## Update
@@ -32,11 +42,8 @@ npm run start
 
 ```sh
 bash start.sh
+# ^C to terminate
 ```
-
-## ^C to terminate
-
-### [frontend](https://cis4914projectdatabase-api.herokuapp.com/)
 
 ## Deploy frontend
 
@@ -46,7 +53,7 @@ heroku git:remote -a cis4914projectdatabase-ui
 git push heroku master
 ```
 
-### [backend](https://cis4914projectdatabase-ui.herokuapp.com/)
+### [Frontend on Heroku](https://cis4914projectdatabase-api.herokuapp.com/)
 
 ## Deploy backend
 
@@ -55,6 +62,8 @@ cd backend
 heroku git:remote -a cis4914projectdatabase-api
 git push heroku master
 ```
+
+### [Backend on Heroku](https://cis4914projectdatabase-ui.herokuapp.com/)
 
 ## Connect to MongoDB from CLI
 
