@@ -1,0 +1,6 @@
+[submodule "backend"]
+	path = backend
+	url = /Users/wizard/WebstormProjects/CIS4914ProjectDatabase/backend/
+[submodule "frontend"]
+	path = frontend
+	url = /Users/wizard/WebstormProjects/CIS4914ProjectDatabase/frontend
