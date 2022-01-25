@@ -6,12 +6,14 @@
 git clone --recursive https://github.com/MenkeTechnologies/CIS4914ProjectDatabase.git
 ```
 
+## OR
+
 ## Clone frontend
 ```bash
 git clone https://github.com/MenkeTechnologies/CIS4914ProjectDatabaseUI.git
 ```
 
-## Clone backend
+## And Clone backend
 ```bash
 git clone https://github.com/MenkeTechnologies/CIS4914ProjectDatabaseAPI.git
 ```
@@ -25,6 +27,7 @@ git submodule update --init --recursive
 ## Run frontend
 
 ```sh
+cd CIS4914ProjectDatabase
 cd frontend
 npm install
 npm run start
@@ -33,6 +36,7 @@ npm run start
 ## Run backend
 
 ```sh
+cd CIS4914ProjectDatabase
 cd backend
 npm install
 npm run start
@@ -41,6 +45,7 @@ npm run start
 ## Run frontend and backend
 
 ```sh
+cd CIS4914ProjectDatabase
 bash start.sh
 # ^C to terminate
 ```
