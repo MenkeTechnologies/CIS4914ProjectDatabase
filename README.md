@@ -58,7 +58,7 @@ heroku git:remote -a cis4914projectdatabase-ui
 git push heroku master
 ```
 
-### [Frontend on Heroku](https://cis4914projectdatabase-api.herokuapp.com/)
+### [Frontend on Heroku](https://cis4914projectdatabase-ui.herokuapp.com/)
 
 ## Deploy backend
 
@@ -68,7 +68,7 @@ heroku git:remote -a cis4914projectdatabase-api
 git push heroku master
 ```
 
-### [Backend on Heroku](https://cis4914projectdatabase-ui.herokuapp.com/)
+### [Backend on Heroku](https://cis4914projectdatabase-api.herokuapp.com/)
 
 ## Connect to MongoDB from CLI
 
