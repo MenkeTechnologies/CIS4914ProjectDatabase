@@ -9,11 +9,13 @@ git clone --recursive https://github.com/MenkeTechnologies/CIS4914ProjectDatabas
 ## OR
 
 ## Clone frontend
+
 ```bash
 git clone https://github.com/MenkeTechnologies/CIS4914ProjectDatabaseUI.git
 ```
 
 ## And Clone backend
+
 ```bash
 git clone https://github.com/MenkeTechnologies/CIS4914ProjectDatabaseAPI.git
 ```
