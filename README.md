@@ -48,7 +48,7 @@ npm run start
 
 ```sh
 cd CIS4914ProjectDatabase
-bash start.sh
+PS4=$'>\e[1;4;39m${BASH_SOURCE}\e[37m\e[0;34m__${LINENO}\e[37m__\e[0;32m${FUNCNAME[0]}> \e[0m' bash start.sh
 # ^C to terminate
 ```
 
